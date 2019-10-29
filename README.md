@@ -7,7 +7,7 @@ Uses phone's gyroscope for augmented-reality immersion: using a phone mount/head
 Implements Google VR SDK for Unity3D.
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-FINAL MILESTONE:
+#H FINAL MILESTONE:
 Making the platformer more presentable- using Unity’s Standard Assets
 
 For this next step, I wanted to go back and flesh out some aspects of my platformer application/game, and to make the game have a more simplistic look. I imported Unity’s Standard Assets and used platform prefabs from the Prototyping folder and applied Box Colliders to them to make my new platforms, which look a lot neater than the ones I added textures to. With wall prefabs from the same assets that I imported, I created a simple level with a walled off area for the player to start the game at and platforms that I added my horizontal and vertical moving scripts to. I also added a cartoon-styled skybox, which is a sky background for the game environment. The skybox I used is one of several free skybox assets found on the Unity Asset Store.
@@ -16,8 +16,8 @@ Player movement script: auto-walking and position reset
 
 1. Auto-walking
 
-![Forward condition](https://ibb.co/wzpWBbq)
-![Idle condition](https://ibb.co/zRK0fDW)
+![Forward condition](https://i.ibb.co/NyWjtkq/player-looking-right.png)
+![Idle condition](https://i.ibb.co/0MPdJvp/player-should-not-move.png)
 
 After setting up my environment, I proceeded to make new player movement scripts using parts of what I wrote for my last milestone to better suit the VR platformer game I wanted to make. For this game, I settled for having player controls limited to the player moving their head/phone; due to time constraints, using a controller to control movements such as walking and jumping would have to be set aside because I did not have enough time to learn how to create a working UDP or TCP communication with the application (which would run the server program) and controller (which would run a client program that sends packets of information in TCP to the server) over wifi or other mediums.
 
@@ -42,7 +42,7 @@ With my basic game working, I was ready to build my Unity project as an Android 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-HALFWAY MARK
+#H HALFWAY MARK
 
 After following and completing Matthew Hallberg’s Instructables project, I went on to create my first augmented-reality Unity3D game.
 
@@ -72,7 +72,7 @@ After I successfully finished with these scripts, I wanted to make my NodeMCU co
 
 After implementing that logic, I found that when my player looked up and walked, they would “walk” up. Since I didn’t want this, I saved the player object’s y position as a float before moving and set the y position back to that after moving.
 
-![ViewPort old level](https://ibb.co/1fxRgv2)
+![ViewPort old level](https://i.ibb.co/gMCt2jg/unity-workspace-1-1024x544.png)
 
 Adding moving platforms
 
